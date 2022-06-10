@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+*, body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+.card {
+  width: 250px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+label {
+  width: max-content;
+  color: tomato;
+  font-size: 13px;
+  border-bottom: 0.5px solid rgb(204, 58, 33);
+  margin: 3px 0;
+}
+
+.desc {
+  font-size: 14px;
+}
+
+.stars {
+  color: gold;
+}
+
+.username {
+  font-size: 14px;
+}
+
+.date {
+  font-size: 12px;
+}
+
+form {
+  width: 250px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: rgb(88, 87, 87);
+}
+.info{
+  color: grey;
+  width: 220px;
+  text-align: center;
+}
+input::placeholder,
+textarea::placeholder {
+  font-size: 12px;
+  color: rgb(185, 184, 184);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+textarea {
+  max-width: 220px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+select{
+  width: 220px;
+  border: none;
+  border-bottom: 1px solid gray;
+
+}
+.submitButton {
+  border: none;
+  width: 220px;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  background-color: tomato;
+  cursor: pointer;
+}
+.main-logo{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: slateblue;
+  font-weight: 700;
+  font-size: 30px;
+}
+.main-logo Room{
+  color: aliceblue;
+}
+.logo-icon{
+  font-size: 100px;
+}
+.buttons,
+.logout {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.button {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.button:focus{
+  outline: none;
+}
+
+.logout{
+  background-color: tomato;
+  height: 40px;
+  width: 75px;
+
+}
+
+.login{
+  height: 40px;
+  width: 60px;
+  background-color: teal;
+  margin-right: 10px;
+}
+
+.register{
+  width: 80px;
+  height: 40px;
+  background-color: slateblue;
+}
